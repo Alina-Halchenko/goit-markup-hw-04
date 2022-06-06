@@ -97,6 +97,8 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 .contacts:hover,
 .contacts:focus,
@@ -109,9 +111,15 @@ header {
   margin-left: 50px;
 }
 
+.email-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 button {
   cursor: pointer;
 }
+
 
 /* Page index */ 
 .hero {
@@ -125,7 +133,7 @@ button {
     rgba(47, 48, 58, 0.4)
     ),
     url(../images/imghero.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -187,6 +195,19 @@ button {
 .benefits-item + .benefits-item {
   margin-left: 30px;
 }
+.benefits-thumb {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: rgba(245, 244, 250, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.benefits-icon {
+  margin: auto;
+}
+
 .benefits-title {
   color: var(--primary-text-color);
   font-weight: 700;
