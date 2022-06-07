@@ -294,8 +294,40 @@ button {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
+.our-team-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.our-team-contacts-item,
+.our-team-contacts-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #AFB1B8;
+}
+.our-team-contacts-item + .our-team-contacts-item {
+  margin-left: 10px;
+}
+.our-team-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.our-team-contacts-link:hover {
+  background-color: var(--accent-color);
+  color: rgba(255, 255, 255, 1);
+}
+.our-team-icon:hover {
+  fill: currentColor;
+}
 /*Page portfolio */
 .our-works-list {
   justify-content: center;
